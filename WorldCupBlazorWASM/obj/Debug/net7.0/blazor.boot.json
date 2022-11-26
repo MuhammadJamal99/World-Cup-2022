@@ -198,13 +198,13 @@
       "mscorlib.dll": "sha256-pO\/W4w\/X+UjVMUMaxE5tYTQ0tILP+hmMu0zi0MSVBLc=",
       "netstandard.dll": "sha256-kj5cBXzwPYC+HD+P8+6VybY34JtEzjXjMIHXEI3hIiM=",
       "System.Private.CoreLib.dll": "sha256-Awk1lCiFfH7r9AAZfBtGqS8rhv6UJ5lUu3yF6HDH3tQ=",
-      "WorldCupBlazorWASM.dll": "sha256-Kn3xbQTRPSGTWUtteWc9\/2AKclF5ICd7Zcq\/FDOB6C4="
+      "WorldCupBlazorWASM.dll": "sha256-ymbAHtP7mnAidahAdjWxIvE8aYDZ69FTmjONHx2XZBE="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "WorldCupBlazorWASM.pdb": "sha256-SddKP5AOrCs\/lq7sMVWZIZxqgf0E3xQIkncsA5tewU4="
+      "WorldCupBlazorWASM.pdb": "sha256-CtY1lRPrRkAbnhC4DUNI3l\/AlMh8DKakY9hZrX9JK\/E="
     },
     "runtime": {
       "dotnet.7.0.0.amub20uvka.js": "sha256-2jNLve8W0sST0LAebgAc1IwSnGhkbjOKO8QPWWiJssI=",
