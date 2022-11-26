@@ -15,7 +15,6 @@ public class StandingsService : IStandingsService
 
     public async Task<StandingsResponseDto> GetStandings()
     {
-        var Model = await HttpClient.GetFromJsonAsync<StandingsResponseDto>($"{BaseUrl}/competitions/WC/standings");
-        return Model;
+        return await HttpClient.GetFromJsonAsync<StandingsResponseDto>($"{BaseUrl}/competitions/WC/standings");
     }
 }
