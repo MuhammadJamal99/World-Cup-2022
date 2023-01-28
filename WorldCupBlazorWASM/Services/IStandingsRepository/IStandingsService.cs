@@ -4,5 +4,6 @@ namespace WorldCupBlazorWASM.Services.IStandingsRepository;
 
 public interface IStandingsService
 {
-    Task<StandingsResponseDto> GetStandings();
+    Task<StandingsResponseDto?> GetStandings();
+    Task<MatchesResponseDto?> GetMatches();
 }

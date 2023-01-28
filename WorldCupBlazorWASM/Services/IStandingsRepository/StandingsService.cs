@@ -13,8 +13,15 @@ public class StandingsService : IStandingsService
         HttpClient.DefaultRequestHeaders.Add("X-Auth-Token", "fd539734ff7b463999c6547d73637e5a");
     }
 
-    public async Task<StandingsResponseDto> GetStandings()
+    public async Task<MatchesResponseDto?> GetMatches()
     {
-        return await HttpClient.GetFromJsonAsync<StandingsResponseDto>($"{BaseUrl}/competitions/WC/standings");
+        var result = await HttpClient.GetFromJsonAsync<MatchesResponseDto?>($"{BaseUrl}/competitions/WC/matches?dateFrom=2202-11-23&dateTo=2022-11-23");
+        return result;
+    }
+
+    public async Task<StandingsResponseDto?> GetStandings()
+    {
+        var result = await HttpClient.GetFromJsonAsync<StandingsResponseDto?>($"{BaseUrl}/competitions/WC/standings");
+        return result; 
     }
 }

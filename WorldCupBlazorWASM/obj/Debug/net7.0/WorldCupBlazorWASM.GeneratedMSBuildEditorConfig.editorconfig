@@ -24,6 +24,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = TWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/World Cup 2022/WorldCupBlazorWASM/WorldCupBlazorWASM/Pages/Components/MatchRow.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xNYXRjaFJvdy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/World Cup 2022/WorldCupBlazorWASM/WorldCupBlazorWASM/Pages/Components/TableRow.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xUYWJsZVJvdy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/World Cup 2022/WorldCupBlazorWASM/WorldCupBlazorWASM/Pages/Components/Team.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xUZWFtLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/World Cup 2022/WorldCupBlazorWASM/WorldCupBlazorWASM/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,35 @@
+﻿@code {
+    [Parameter]
+    public StandingsDto Standing { get; set; }
+}
+<div class="col-lg-6">
+    <div class="card shadow border-none">
+        <div class="card-header bg-primary text-center">
+            <b>@Standing.Group.Replace("_", " ")</b>
+        </div>
+        <div class="row m-0 bg-secondary">
+            <div class="col-lg-4 text-center">
+                team
+            </div>
+            <div class="col-lg-2 text-center">
+                W
+            </div>
+            <div class="col-lg-2 text-center">
+                D
+            </div>
+            <div class="col-lg-2 text-center">
+                L
+            </div>
+            <div class="col-lg-2 text-center">
+                Pts
+            </div>
+        </div>
+        <ul class="list-group list-group-flush">
+            @foreach (var teamRaw in Standing.Table)
+            {
+                <TableRow Row="teamRaw" />
+            }
+
+        </ul>
+    </div>
+</div>
